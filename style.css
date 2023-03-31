@@ -1,0 +1,66 @@
+@font-face {
+    font-family: oswald;
+    src: url(fonts/Oswald-Medium.ttf);
+}
+
+@font-face {
+    font-family: troika;
+    src: url(fonts/troika.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.side-photo {
+    background-image: url("imgs/aaron-ulsh--blue-water.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.credit > a {
+    color: rgb(56, 56, 59);
+    text-decoration: none;
+}
+
+.credit {
+    color:rgb(38, 39, 39);
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 30px;
+    margin-top: 5rem;
+}
+
+.text {
+    font-family: troika;
+    font-size: 6rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.credit-box {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.form-section {
+    background-color: rgb(241, 241, 241);
+}
