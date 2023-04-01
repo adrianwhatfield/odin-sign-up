@@ -24,29 +24,43 @@
         <p class="bold">You <i>know</i> you want to.</p>
 
         <form>
+            <legend>Let's do this!</legend>
             <div class="box">
-                <label for="first-name">First Name:</label>
-                <input type="text" id="first-name" name="first-name">
+                <div class="grid-child">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name">
+                </div>
+                
+                <div class="grid-child">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
 
-                <label for="last-name">Last Name:</label>
-                <input type="text" id="last-name" name="last-name">
+                <div class="grid-child">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <div class="grid-child">
+                    <label for="phone-num">Phone Number:</label>
+                    <input type="tel" id="phone-num" name="phone-num">
+                </div>
+                
 
-                <label for="phone-num">Phone Number:</label>
-                <input type="tel" id="phone-num" name="phone-num">
+                <div class="grid-child">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
 
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password">
-
-                <label for="confirm-password">Confirm Password:</label>
-                <input type="password" id="confirm-password" name="confirm-password">
+                <div class="grid-child">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password">
+                </div>
             </div>
 
             <button type="submit">Create Account</button>
-            <p>Already have an account? <a href="">Log in</a></p>
         </form>
+        <p class="log-in">Already have an account? <a class="log-in-link" href="">Log in</a></p>
     </div>
 </body>
 </html>
