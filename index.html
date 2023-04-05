@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Sign-Up</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="side-photo">
@@ -37,8 +38,8 @@
                 </div>
 
                 <div class="grid-child">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+                    <label for="email">* Email:</label>
+                    <input type="email" id="email" name="email" required>
                 </div>
 
                 <div class="grid-child">
@@ -48,13 +49,14 @@
                 
 
                 <div class="grid-child">
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password">
+                    <label for="password">* Password:</label>
+                    <input type="password" id="password" name="password" required>
                 </div>
 
                 <div class="grid-child">
-                    <label for="confirm-password">Confirm Password:</label>
-                    <input type="password" id="confirm-password" name="confirm-password">
+                    <label for="confirm-password">* Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                    <p id="invalid-password-warning"></p>
                 </div>
             </div>
 

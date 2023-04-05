@@ -130,3 +130,13 @@ legend {
     color: rgb(21,69,105);
     font-weight: bold;
 }
+
+input:invalid {
+    border-color: rgb(197, 33, 33);
+}
+
+#invalid-password-warning {
+    color: rgb(197, 33, 33);
+    font-size: 1rem;
+    font-family: oswald;
+}
